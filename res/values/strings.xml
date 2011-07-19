@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Login!</string>
+    <string name="app_name">Media Player HC Remote</string>
+	<string name="connectbtn">Connect</string>
+	<string name="servertxt">thelinkstate.dyndns.org</string>
+	<string name="defaultportnum">13579</string>
+	<string name="instructions">Please enter server address and port number</string>
+	<string name="connecting">Checking Connection...</string>
+	<string name="please_wait">Please wait.</string>
+	<string name="server_select">Select a server...</string>
+</resources>

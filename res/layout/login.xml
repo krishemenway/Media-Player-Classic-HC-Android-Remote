@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/logo" android:src="@drawable/logo7" android:layout_gravity="center"></ImageView>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="fill_parent" android:layout_gravity="center" android:layout_width="fill_parent">
+	<Spinner android:id="@+id/serverSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+	<EditText android:layout_below="@+id/serverSpinner" android:text="@string/servertxt" android:id="@+id/server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:longClickable="true" android:selectAllOnFocus="true" android:soundEffectsEnabled="true" android:lines="1" android:maxLines="1"></EditText>	
+	<EditText android:text="@string/defaultportnum" android:layout_marginRight="100dp" android:id="@+id/port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_below="@id/server" android:soundEffectsEnabled="true" android:selectAllOnFocus="true" android:lines="1" android:maxLines="1"></EditText>	
+	<Button android:text="@string/connectbtn" android:id="@+id/connectbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100dp" android:layout_marginLeft="-100dp" android:layout_below="@id/server" android:layout_toRightOf="@id/port"></Button>
+</RelativeLayout>
+
+</LinearLayout>

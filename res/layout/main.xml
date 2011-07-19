@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+
+	<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_height="wrap_content">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="901" android:width="80dip" android:id="@+id/Rewind" android:text="Rewind"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="889" android:width="80dip" android:id="@+id/Play" android:layout_toRightOf="@+id/Rewind" android:text="Play"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="902" android:width="80dip" android:id="@+id/FastFoward" android:layout_toRightOf="@+id/Play" android:text="Fast"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="920" android:width="80dip" android:id="@+id/PlayListLast" android:layout_below="@+id/Rewind" android:text="Last"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="890" android:width="80dip" android:id="@+id/Stop" android:layout_toRightOf="@+id/PlayListLast" android:layout_below="@+id/Play" android:text="Stop"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:tag="921" android:width="80dip" android:id="@+id/PlayListNext" android:layout_toRightOf="@+id/Stop" android:layout_below="@+id/FastFoward" android:text="Next"></Button>
+	</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="mpchc.remote"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/logo7" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".Login"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="MPCRemoteClient" android:label="@string/app_name"></activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 
